@@ -40,7 +40,7 @@ window.CONFIG = {
     {
       title: "CHIPTUNING & KENNFELDOPTIMIERUNG",
       subtitle: "Leistungssteigerung und optimiertes Ansprechverhalten für alle Marken",
-      image: "https://images.pexels.com/photos/1545743/pexels-photo-1545743.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      image: "https://i.postimg.cc/YC1zQxch/motor-2828878-1920.jpg"
     },
     {
       title: "AGR/DPF/ADBLUE DEAKTIVIERUNG",
