@@ -79,7 +79,7 @@ window.CONFIG = {
     {
       title: "VMAX-Aufhebung",
       description: "Entfernung der elektronischen Geschwindigkeitsbegrenzung",
-      icon: "Zap"
+      icon: "Star"
     },
     {
       title: "Fahrzeugdiagnose vor Ort",
@@ -94,7 +94,7 @@ window.CONFIG = {
     {
       title: "Leistungsmessung",
       description: "Vorher-Nachher Vergleich auf dem Prüfstand",
-      icon: "Star"
+      icon: "Sparkles"
     },
     {
       title: "Mobilservice",
