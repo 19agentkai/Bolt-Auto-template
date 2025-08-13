@@ -167,29 +167,26 @@ export const MainServices: React.FC = () => {
   const mainServices = config.MAIN_SERVICES || [];
   
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 min-h-[400px]">
       {mainServices.map((service: any, index: number) => (
         <div
           key={index}
-          className="relative h-96 lg:h-[500px] overflow-hidden group cursor-pointer transform transition-all duration-700 hover:scale-105"
+          className="relative h-96 lg:h-[500px] overflow-hidden group cursor-pointer transform transition-all duration-700 hover:scale-105 bg-gray-900"
         >
-          <img
-            src={service.image}
-            alt={service.title}
-            className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-125"
+          <div 
+            className="absolute inset-0 w-full h-full bg-cover bg-center transition-transform duration-1000 group-hover:scale-110"
+            style={{ backgroundImage: `url(${service.image})` }}
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-black/40 transition-all duration-500" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
           
-          <div className="absolute inset-0 flex flex-col justify-center items-center p-8 text-white text-center transform transition-transform duration-500 group-hover:translate-y-[-10px]">
-            <h3 className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl font-black mb-4 leading-tight transform transition-transform duration-300 group-hover:scale-105 px-4 sm:px-6 md:px-8 lg:px-10">
+          <div className="absolute inset-0 flex flex-col justify-end p-6 text-white">
+            <h3 className="text-lg md:text-xl lg:text-2xl font-black mb-2 leading-tight text-shadow-lg">
               {service.title}
             </h3>
-            <p className="text-xs sm:text-xs md:text-sm lg:text-sm text-gray-200 leading-relaxed opacity-80 group-hover:opacity-100 transition-all duration-500 transform translate-y-4 group-hover:translate-y-0 max-w-[95%] px-4 sm:px-6 md:px-8 lg:px-10">
+            <p className="text-sm text-gray-200 leading-relaxed opacity-90 text-shadow">
               {service.subtitle}
             </p>
           </div>
-          
-          <div className="absolute inset-0 bg-blue-600 bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-500" />
         </div>
       ))}
     </div>
