@@ -46,7 +46,7 @@ const Hero = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="animate-fade-in-up opacity-0 animate-delay-300">
            
-            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-black text-white mb-6 sm:mb-8 leading-tight sm:leading-none tracking-tight transform hover:scale-105 transition-transform duration-500">
+            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-7xl xl:text-8xl font-black text-white mb-6 sm:mb-8 leading-tight sm:leading-none tracking-tight transform hover:scale-105 transition-transform duration-500">
               <Text k="HERO_HEADLINE" /><br />
               <span className="text-blue-500 animate-pulse text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
                 <Text k="HERO_SUBHEADLINE" />
