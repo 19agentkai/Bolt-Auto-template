@@ -137,7 +137,7 @@ export const Services: React.FC = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mb-16">
       {services.map((service: any, index: number) => {
-        const IconComponent = iconMap[service.icon as keyof typeof iconMap] || iconMap.default || Zap;
+        const IconComponent = iconMap[service.icon as keyof typeof iconMap] || Zap;
         return (
           <div
             key={index}
@@ -145,7 +145,7 @@ export const Services: React.FC = () => {
           >
             <div className="flex flex-col items-center text-center">
               <div className="bg-blue-600 bg-opacity-20 p-4 rounded-full mb-4 group-hover:bg-opacity-40 transition-all duration-500 group-hover:rotate-12 group-hover:scale-110">
-                {IconComponent && <IconComponent className="h-8 w-8 text-blue-400 group-hover:text-blue-300 transition-all duration-300" />}
+                <IconComponent className="h-8 w-8 text-blue-400 group-hover:text-blue-300 transition-all duration-300" />
               </div>
               <h3 className="text-lg font-semibold text-white mb-3 group-hover:text-blue-300 transition-colors duration-300">
                 {service.title}
