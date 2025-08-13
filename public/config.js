@@ -24,15 +24,15 @@ window.CONFIG = {
   SITE_DESCRIPTION: "SITE_DESCRIPTION",
   
   // Hero Section
-  HERO_HEADLINE: "test",
-  HERO_SUBHEADLINE: "test",
-  HERO_TAGLINE: "test",
-  HERO_CTA_TEXT: "test",
+  HERO_HEADLINE: "HERO_HEADLINE",
+  HERO_SUBHEADLINE: "HERO_SUBHEADLINE",
+  HERO_TAGLINE: "HERO_TAGLINE",
+  HERO_CTA_TEXT: "HERO_CTA_TEXT",
   HERO_BACKGROUND: "https://i.postimg.cc/SKcn3kbD/Whats-App-Image-2025-08-12-at-13-52-31-1.jpg",
   
   // Services Section
-  SERVICES_HEADLINE: "test",
-  SERVICES_SUBHEADLINE: "test",
+  SERVICES_HEADLINE: "SERVICES_HEADLINE",
+  SERVICES_SUBHEADLINE: "SERVICES_SUBHEADLINE",
   SERVICES_DESCRIPTION: "Seit über 10 Jahren bringen wir Fahrzeuge in Bestform – von der Lackaufbereitung über Leasingrückläufer bis zur Oldtimerpflege. Perfekter Glanz und langanhaltender Schutz sind unser Anspruch.",
   
   // Main Service Categories
