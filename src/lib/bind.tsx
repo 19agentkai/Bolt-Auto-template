@@ -183,12 +183,12 @@ export const MainServices: React.FC = () => {
             <h3 className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl font-black mb-4 leading-tight transform transition-transform duration-300 group-hover:scale-105 px-4 sm:px-6 md:px-8 lg:px-10">
               {service.title}
             </h3>
-            <p className="text-xs sm:text-xs md:text-sm lg:text-sm text-gray-200 leading-relaxed opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-y-4 group-hover:translate-y-0 max-w-[95%] px-4 sm:px-6 md:px-8 lg:px-10">
+            <p className="text-xs sm:text-xs md:text-sm lg:text-sm text-gray-200 leading-relaxed opacity-80 group-hover:opacity-100 transition-all duration-500 transform translate-y-4 group-hover:translate-y-0 max-w-[95%] px-4 sm:px-6 md:px-8 lg:px-10">
               {service.subtitle}
             </p>
           </div>
           
-          <div className="absolute inset-0 bg-blue-600 bg-opacity-0 group-hover:bg-opacity-5 transition-all duration-500" />
+          <div className="absolute inset-0 bg-blue-600 bg-opacity-0 group-hover:bg-opacity-10 transition-all duration-500" />
         </div>
       ))}
     </div>
