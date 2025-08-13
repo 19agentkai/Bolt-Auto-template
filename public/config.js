@@ -26,7 +26,7 @@ window.CONFIG = {
   // Hero Section
   HERO_HEADLINE: "CHIPTUNING & FAHRZEUGDIAGNOSE",
   HERO_SUBHEADLINE: "MOBIL VOR ORT",
-  HERO_TAGLINE: "Leistungssteigerung, Kennfeldoptimierung, AGR/DPF/AdBlue Deaktivierung, Pops & Bangs, VMAX-Aufhebung – professionell & individuell in Duisburg",
+  HERO_TAGLINE: "Leistungssteigerung, Kennfeldoptimierung, AGR/DPF/AdBlue Off, Pops & Bangs, VMAX-Aufhebung.",
   HERO_CTA_TEXT: "JETZT TERMIN VEREINBAREN",
   HERO_BACKGROUND: "https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=1920",
   
