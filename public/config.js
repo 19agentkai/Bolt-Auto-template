@@ -55,7 +55,7 @@ window.CONFIG = {
     {
       title: "FAHRZEUGDIAGNOSE VOR ORT",
       subtitle: "Fehlerauslese, Analyse und Behebung direkt bei Ihnen",
-      image: "https://images.pexels.com/photos/3807277/pexels-photo-3807277.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      image: "https://i.postimg.cc/vTV9nP7S/d2f799ca-beb6-47ee-bcb0-df123e473896.avif"
     }
   ],
   
