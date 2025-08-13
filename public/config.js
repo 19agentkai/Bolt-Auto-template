@@ -28,7 +28,7 @@ window.CONFIG = {
   HERO_SUBHEADLINE: "MOBIL VOR ORT",
   HERO_TAGLINE: "Leistungssteigerung, Kennfeldoptimierung, AGR/DPF/AdBlue Deaktivierung, Pops & Bangs, VMAX-Aufhebung – professionell & individuell in Duisburg",
   HERO_CTA_TEXT: "JETZT TERMIN VEREINBAREN",
-  HERO_BACKGROUND: "https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=1920",
+  HERO_BACKGROUND: "https://i.postimg.cc/FzShD2W0/bmw-6236203-1920.jpg",
   
   // Services Section
   SERVICES_HEADLINE: "UNSERE",
