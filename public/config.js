@@ -50,7 +50,7 @@ window.CONFIG = {
     {
       title: "POPS & BANGS / VMAX-AUFHEBUNG",
       subtitle: "Sportlicher Sound und maximale Performance",
-      image: "https://images.pexels.com/photos/919073/pexels-photo-919073.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      image: "https://i.postimg.cc/K8Mj3xjx/Whats-App-Image-2025-08-12-at-13-52-33-1.jpg"
     },
     {
       title: "FAHRZEUGDIAGNOSE VOR ORT",
