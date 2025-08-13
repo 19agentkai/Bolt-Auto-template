@@ -18,7 +18,7 @@ const Services = () => {
                 <Text k="SERVICES_SUBHEADLINE" />
               </span>
             </h2>
-            <p className="text-lg sm:text-xl text-gray-300 max-w-5xl mx-auto leading-relaxed opacity-10 animate-fade-in-up animate-delay-300">
+            <p className="text-lg sm:text-xl text-gray-300 max-w-5xl mx-auto leading-relaxed opacity-0 animate-fade-in-up animate-delay-300">
               <Text k="SERVICES_DESCRIPTION" />
             </p>
           </div>
