@@ -12,7 +12,6 @@ const Services = () => {
             <span className="text-lg text-gray-400 font-medium tracking-wider uppercase mb-4 block">
               Qualität, Erfahrung & Service
             </span>
-            <h2 className="text-5xl sm:text-6xl lg:text-7xl xl:text-7xl font-black text-white mb-6 leading-tight transform hover:scale-105 transition-transform duration-500">
             <h2 className="text-4xl sm:text-5xl lg:text-6xl xl:text-6xl font-black text-white mb-6 leading-tight transform hover:scale-105 transition-transform duration-500">
               <Text k="SERVICES_HEADLINE" /><br />
               <span className="text-blue-400 animate-pulse text-3xl sm:text-4xl lg:text-5xl xl:text-6xl">
