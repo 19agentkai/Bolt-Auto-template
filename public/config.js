@@ -184,7 +184,7 @@ window.CONFIG = {
   CONTACT_CTA_LEFT: "TERMIN VEREINBAREN",
   CONTACT_CTA_RIGHT: "UNSERE LEISTUNGEN",
   CONTACT_LEFT_IMAGE: "https://images.pexels.com/photos/3807277/pexels-photo-3807277.jpeg?auto=compress&cs=tinysrgb&w=800",
-  CONTACT_RIGHT_IMAGE: "https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=800",
+  CONTACT_RIGHT_IMAGE: "https://i.postimg.cc/HL1xQR85/Whats-App-Image-2025-08-12-at-13-52-34.jpg",
   
   // Form
   FORM_ENDPOINT: "info@xk-performance.de",
