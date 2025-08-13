@@ -40,22 +40,22 @@ window.CONFIG = {
     {
       title: "CHIPTUNING & KENNFELDOPTIMIERUNG",
       subtitle: "Leistungssteigerung und optimiertes Ansprechverhalten für alle Marken",
-      image: "https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=800"
+      image: "https://images.pexels.com/photos/1545743/pexels-photo-1545743.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       title: "AGR/DPF/ADBLUE DEAKTIVIERUNG",
       subtitle: "Softwareseitige Stilllegung für störungsfreies Fahren",
-      image: "https://images.pexels.com/photos/3807277/pexels-photo-3807277.jpeg?auto=compress&cs=tinysrgb&w=800"
+      image: "https://images.pexels.com/photos/3807277/pexels-photo-3807277.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       title: "POPS & BANGS / VMAX-AUFHEBUNG",
       subtitle: "Sportlicher Sound und maximale Performance",
-      image: "https://images.pexels.com/photos/3874337/pexels-photo-3874337.jpeg?auto=compress&cs=tinysrgb&w=800"
+      image: "https://images.pexels.com/photos/919073/pexels-photo-919073.jpeg?auto=compress&cs=tinysrgb&w=1200"
     },
     {
       title: "FAHRZEUGDIAGNOSE VOR ORT",
       subtitle: "Fehlerauslese, Analyse und Behebung direkt bei Ihnen",
-      image: "https://images.pexels.com/photos/3807277/pexels-photo-3807277.jpeg?auto=compress&cs=tinysrgb&w=800"
+      image: "https://images.pexels.com/photos/3807277/pexels-photo-3807277.jpeg?auto=compress&cs=tinysrgb&w=1200"
     }
   ],
   
