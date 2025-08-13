@@ -1,203 +1,198 @@
 // Single-file configuration for client customization
 window.CONFIG = {
   // Client Information
-  CLIENT_NAME: "CLIENT_NAME",
-  BUSINESS_NAME: "BUSINESS_NAME",
-  CITY: "CITY",
-  PHONE: "99999",
-  EMAIL: "email@example.com",
-  WHATSAPP: "4917664056418",
+  CLIENT_NAME: "XK-PERFORMANCE",
+  BUSINESS_NAME: "XK-PERFORMANCE",
+  CITY: "Duisburg",
+  PHONE: "+49 178 444 97 99",
+  EMAIL: "info@xk-performance.de",
+  WHATSAPP: "491784449799",
   
   // Address
   ADDRESS: {
-    STREET: "Street",
-    POSTAL_CODE: "11111",
-    CITY: "City",
+    STREET: "Mobilservice",
+    POSTAL_CODE: "47051",
+    CITY: "Duisburg",
     COUNTRY: "DE"
   },
   
   // Business Hours
-  OPENING_HOURS: "Mo-Sa 08:00-18:00",
+  OPENING_HOURS: "Mo-Sa 09:00-19:00",
   
   // SEO
-  SITE_TITLE: "SITE_TITLE",
-  SITE_DESCRIPTION: "SITE_DESCRIPTION",
+  SITE_TITLE: "XK-PERFORMANCE – Chiptuning & Diagnose in Duisburg",
+  SITE_DESCRIPTION: "Professionelles Chiptuning, Kennfeldoptimierung und Fahrzeugdiagnose mobil vor Ort in Duisburg. AGR/DPF/AdBlue Deaktivierung, Pops & Bangs, VMAX-Aufhebung für alle Marken.",
   
   // Hero Section
-  HERO_HEADLINE: "HERO_HEADLINE",
-  HERO_SUBHEADLINE: "HERO_SUBHEADLINE",
-  HERO_TAGLINE: "HERO_TAGLINE",
-  HERO_CTA_TEXT: "HERO_CTA_TEXT",
-  HERO_BACKGROUND: "https://i.postimg.cc/SKcn3kbD/Whats-App-Image-2025-08-12-at-13-52-31-1.jpg",
+  HERO_HEADLINE: "CHIPTUNING & FAHRZEUGDIAGNOSE",
+  HERO_SUBHEADLINE: "MOBIL VOR ORT",
+  HERO_TAGLINE: "Leistungssteigerung, Kennfeldoptimierung, AGR/DPF/AdBlue Deaktivierung, Pops & Bangs, VMAX-Aufhebung – professionell & individuell in Duisburg",
+  HERO_CTA_TEXT: "JETZT TERMIN VEREINBAREN",
+  HERO_BACKGROUND: "https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=1920",
   
   // Services Section
-  SERVICES_HEADLINE: "SERVICES_HEADLINE",
-  SERVICES_SUBHEADLINE: "SERVICES_SUBHEADLINE",
-  SERVICES_DESCRIPTION: "Seit über 10 Jahren bringen wir Fahrzeuge in Bestform – von der Lackaufbereitung über Leasingrückläufer bis zur Oldtimerpflege. Perfekter Glanz und langanhaltender Schutz sind unser Anspruch.",
+  SERVICES_HEADLINE: "UNSERE",
+  SERVICES_SUBHEADLINE: "LEISTUNGEN",
+  SERVICES_DESCRIPTION: "Professionelles Chiptuning und Fahrzeugdiagnose direkt vor Ort. Mit modernster Technik und langjähriger Erfahrung optimieren wir die Performance Ihres Fahrzeugs – individuell und zuverlässig.",
   
   // Main Service Categories
   MAIN_SERVICES: [
     {
-      title: "DIE VOLLFOLIERUNG",
-      subtitle: "Fahrzeugfolierung mit über 300+ verschiedene Farben in matt & glanz.",
-      image: "https://i.postimg.cc/Ss7DyBCG/f72e7568-e366-4d39-bd91-7021ab2b55ce.avif"
+      title: "CHIPTUNING & KENNFELDOPTIMIERUNG",
+      subtitle: "Leistungssteigerung und optimiertes Ansprechverhalten für alle Marken",
+      image: "https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=800"
     },
     {
-      title: "LACKSCHUTZFOLIERUNG",
-      subtitle: "Unsichtbar & selbstheilend – Effektiver Schutz gegen Steinschläge & Kratzer!",
-      image: "https://i.postimg.cc/6Q4PNbMH/a0ad6478-ef04-475f-bae8-8aa78512e8d8.avif"
+      title: "AGR/DPF/ADBLUE DEAKTIVIERUNG",
+      subtitle: "Softwareseitige Stilllegung für störungsfreies Fahren",
+      image: "https://images.pexels.com/photos/3807277/pexels-photo-3807277.jpeg?auto=compress&cs=tinysrgb&w=800"
     },
     {
-      title: "WERBEFOLIERUNG",
-      subtitle: "Mobile Werbung, die auffällt – Steigern Sie Ihre Markenpräsenz.",
-      image: "https://i.postimg.cc/m261FmSN/Whats-App-Image-2025-08-12-at-13-44-25.jpg"
+      title: "POPS & BANGS / VMAX-AUFHEBUNG",
+      subtitle: "Sportlicher Sound und maximale Performance",
+      image: "https://images.pexels.com/photos/3874337/pexels-photo-3874337.jpeg?auto=compress&cs=tinysrgb&w=800"
     },
     {
-      title: "FAHRZEUGAUFBEREITUNG",
-      subtitle: "Premium Fahrzeugaufbereitung, Detailing und Keramikversiegelung.",
-      image: "https://i.postimg.cc/CLw9fNK1/09a70c1a-984d-4d8b-aa0d-9b24bb08272b.avif"
+      title: "FAHRZEUGDIAGNOSE VOR ORT",
+      subtitle: "Fehlerauslese, Analyse und Behebung direkt bei Ihnen",
+      image: "https://images.pexels.com/photos/3807277/pexels-photo-3807277.jpeg?auto=compress&cs=tinysrgb&w=800"
     }
   ],
   
   // Detailed Services
   SERVICES: [
     {
-      title: "Lackaufbereitung & Politur",
-      description: "Professionelle Lackpflege für perfekten Glanz",
-      icon: "Car"
-    },
-    {
-      title: "Oldtimerpflege",
-      description: "Spezialpflege für klassische Fahrzeuge",
-      icon: "Star"
-    },
-    {
-      title: "Innenraumreinigung & Polsterreinigung",
-      description: "Tiefenreinigung für perfekte Sauberkeit",
-      icon: "Sparkles"
-    },
-    {
-      title: "Cabrio-Verdeckpflege",
-      description: "Spezialbehandlung für Stoffverdecke",
-      icon: "Wind"
-    },
-    {
-      title: "Geruchsbeseitigung (Ozon)",
-      description: "Effektive Ozonbehandlung gegen Gerüche",
+      title: "Chiptuning & Kennfeldoptimierung",
+      description: "Leistungssteigerung und optimiertes Ansprechverhalten für BMW, Audi, Mercedes, VW u.v.m.",
       icon: "Zap"
     },
     {
-      title: "Scheinwerfer-Aufbereitung",
-      description: "Kristallklare Sicht durch Politur",
-      icon: "Eye"
+      title: "AGR/DPF/AdBlue/NOx Deaktivierung",
+      description: "Softwareseitige Stilllegung für störungsfreies Fahren",
+      icon: "Shield"
     },
     {
-      title: "Motorreinigung mit Trockendampf",
-      description: "Schonende Motorraumreinigung",
+      title: "Pops & Bangs / Hardcut",
+      description: "Sportlicher Sound und aggressives Ansprechverhalten",
       icon: "Flame"
     },
     {
-      title: "Keramik Coating",
-      description: "Premium Versiegelung für optimalen Schutz",
+      title: "VMAX-Aufhebung",
+      description: "Entfernung der elektronischen Geschwindigkeitsbegrenzung",
+      icon: "Zap"
+    },
+    {
+      title: "Fahrzeugdiagnose vor Ort",
+      description: "Fehlerauslese, Analyse und Behebung direkt bei Ihnen",
+      icon: "Eye"
+    },
+    {
+      title: "Softwareoptimierung",
+      description: "Moderne Tools und langjährige Erfahrung für alle Marken",
       icon: "Gem"
     },
     {
-      title: "Nano- & Scheibenversiegelung",
-      description: "Innovative Versiegelung für beste Sicht",
-      icon: "Glass"
+      title: "Leistungsmessung",
+      description: "Vorher-Nachher Vergleich auf dem Prüfstand",
+      icon: "Star"
+    },
+    {
+      title: "Mobilservice",
+      description: "Wir kommen zu Ihnen nach Hause oder ins Büro",
+      icon: "Car"
     }
   ],
   
   // Gallery Images
   GALLERY_IMAGES: [
     {
-      src: "https://i.postimg.cc/wj7fhbY6/d2e4ca96-94d8-48ba-b91f-fef3981ae700.avif",
-      title: "Hochglanzpolitur",
-      category: "Lackaufbereitung"
+      src: "https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=800",
+      title: "Chiptuning BMW",
+      category: "Chiptuning"
     },
     {
-      src: "https://i.postimg.cc/G21XnL82/fe452e31-eaee-45ac-baf4-8498e7729893.avif",
-      title: "Innenraumaufbereitung",
-      category: "Interior"
+      src: "https://images.pexels.com/photos/3807277/pexels-photo-3807277.jpeg?auto=compress&cs=tinysrgb&w=800",
+      title: "Diagnose vor Ort",
+      category: "Diagnose"
     },
     {
-      src: "https://i.postimg.cc/g2QM4qG3/e7cf8a9f-e8c6-45f2-b941-d16186afda69.avif",
-      title: "Keramikversiegelung",
-      category: "Beschichtung"
+      src: "https://images.pexels.com/photos/3874337/pexels-photo-3874337.jpeg?auto=compress&cs=tinysrgb&w=800",
+      title: "Performance Tuning",
+      category: "Tuning"
     },
     {
-      src: "https://i.postimg.cc/kMvp9byd/ceac01fb-fea6-4efd-b6d3-5e2daaffd286.avif",
-      title: "Felgenaufbereitung",
-      category: "Räder"
+      src: "https://images.pexels.com/photos/1545743/pexels-photo-1545743.jpeg?auto=compress&cs=tinysrgb&w=800",
+      title: "Audi Optimierung",
+      category: "Chiptuning"
     },
     {
-      src: "https://i.postimg.cc/W4Z5yF4C/dff8f3e0-aab7-47c6-952b-65e4de2f008f.avif",
-      title: "Motorreinigung",
-      category: "Motor"
+      src: "https://images.pexels.com/photos/3807277/pexels-photo-3807277.jpeg?auto=compress&cs=tinysrgb&w=800",
+      title: "Mercedes Tuning",
+      category: "Tuning"
     },
     {
-      src: "https://i.postimg.cc/1tpY8nhw/ac9614d9-bc3b-46ff-90c9-c533763304d4.avif",
-      title: "Scheinwerferaufbereitung",
-      category: "Optik"
+      src: "https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=800",
+      title: "VW Kennfeldoptimierung",
+      category: "Chiptuning"
     }
   ],
   
   // Reviews
   REVIEWS: [
     {
-      name: "Michael K.",
+      name: "Michael S.",
       rating: 5,
-      text: "Absolut professionelle Arbeit! Mein BMW sieht aus wie neu. Vadim arbeitet sehr sorgfältig und pünktlich.",
-      service: "Lackaufbereitung"
+      text: "Professionelles Chiptuning für meinen BMW 320d. Deutlich mehr Leistung und besseres Ansprechverhalten. Top Service!",
+      service: "Chiptuning"
+    },
+    {
+      name: "Thomas K.",
+      rating: 5,
+      text: "AGR-Deaktivierung bei meinem Audi A4. Keine Probleme mehr, läuft perfekt. Sehr zu empfehlen!",
+      service: "AGR Deaktivierung"
     },
     {
       name: "Sandra M.",
       rating: 5,
-      text: "Bin begeistert von der Innenraumreinigung. Jedes Detail wurde perfekt gemacht. Sehr empfehlenswert!",
-      service: "Innenraumreinigung"
+      text: "Mobilservice ist genial! Kam direkt zu mir nach Hause. Schnell, sauber und professionell gearbeitet.",
+      service: "Mobilservice"
     },
     {
-      name: "Thomas R.",
+      name: "Robert L.",
       rating: 5,
-      text: "Die Keramikversiegelung ist ihr Geld wert. Das Auto glänzt nach Monaten immer noch wie am ersten Tag.",
-      service: "Keramik Coating"
+      text: "VMAX-Aufhebung und Pops & Bangs für meinen Golf GTI. Wahnsinn was möglich ist! Danke XK-Performance!",
+      service: "Performance Tuning"
     },
     {
       name: "Julia H.",
       rating: 5,
-      text: "Sehr freundlich und kompetent. Die Geruchsbeseitigung hat perfekt funktioniert. Vielen Dank!",
-      service: "Geruchsbeseitigung"
+      text: "Fahrzeugdiagnose hat das Problem sofort gefunden. Kompetent und fair. Gerne wieder!",
+      service: "Diagnose"
     },
     {
-      name: "Robert S.",
+      name: "Andreas W.",
       rating: 5,
-      text: "Top Service für meinen Oldtimer. Vadim versteht sein Handwerk und behandelt jedes Auto wie sein eigenes.",
-      service: "Oldtimerpflege"
-    },
-    {
-      name: "Marina L.",
-      rating: 5,
-      text: "Faire Preise und ausgezeichnete Qualität. Die Aufbereitung für die Leasingrückgabe war perfekt.",
-      service: "Leasingrückläufer"
+      text: "Mercedes C63 AMG optimiert. Unglaubliche Leistungssteigerung! Absolute Profis am Werk.",
+      service: "Chiptuning"
     }
   ],
   
   // Contact Section
   CONTACT_HEADLINE: "Jetzt Termin",
-  CONTACT_SUBHEADLINE: "sichern",
-  CONTACT_DESCRIPTION: "Lassen Sie Ihr Fahrzeug von einem Profi behandeln. Schnelle Termine, faire Preise und erstklassige Ergebnisse.",
-  CONTACT_CTA_LEFT: "ERHALTE EIN ANGEBOT",
-  CONTACT_CTA_RIGHT: "UNSERE LEISTUNGEN FÜR SIE",
-  CONTACT_LEFT_IMAGE: "https://i.postimg.cc/K8Mj3xjx/Whats-App-Image-2025-08-12-at-13-52-33-1.jpg",
-  CONTACT_RIGHT_IMAGE: "https://i.postimg.cc/HL1xQR85/Whats-App-Image-2025-08-12-at-13-52-34.jpg",
+  CONTACT_SUBHEADLINE: "vereinbaren",
+  CONTACT_DESCRIPTION: "Professionelles Chiptuning und Diagnose direkt vor Ort in Duisburg. Schnelle Termine, faire Preise und maximale Performance für Ihr Fahrzeug.",
+  CONTACT_CTA_LEFT: "TERMIN VEREINBAREN",
+  CONTACT_CTA_RIGHT: "UNSERE LEISTUNGEN",
+  CONTACT_LEFT_IMAGE: "https://images.pexels.com/photos/3807277/pexels-photo-3807277.jpeg?auto=compress&cs=tinysrgb&w=800",
+  CONTACT_RIGHT_IMAGE: "https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=800",
   
   // Form
-  FORM_ENDPOINT: "vad-lit@web.de",
+  FORM_ENDPOINT: "info@xk-performance.de",
   
   // Footer
-  FOOTER_DESCRIPTION: "Professionelle Autopflege und Fahrzeugaufbereitung in Bremen. Von der Grundreinigung bis zur Premium-Keramikversiegelung.",
+  FOOTER_DESCRIPTION: "Professionelles Chiptuning und Fahrzeugdiagnose mobil vor Ort in Duisburg. Von der Kennfeldoptimierung bis zur AGR-Deaktivierung.",
   FOOTER_TAX_NOTE: "Hinweis: Gemäß § 19 Abs. 1 UStG wird keine Umsatzsteuer ausgewiesen.",
   
-  // Demo Mode (set to true to add noindex,nofollow)
+  // Demo Mode (set to false for production)
   IS_DEMO: false
 };

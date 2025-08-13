@@ -78,6 +78,31 @@ html {
   }
 }
 
+/* Brand color overrides */
+.bg-blue-500, .bg-blue-600, .bg-blue-700 {
+  background-color: #e4b351 !important;
+}
+
+.hover\:bg-blue-700:hover, .hover\:bg-blue-800:hover {
+  background-color: #d4a03f !important;
+}
+
+.text-blue-400, .text-blue-500, .text-blue-600, .text-blue-700 {
+  color: #e4b351 !important;
+}
+
+.border-blue-500 {
+  border-color: #e4b351 !important;
+}
+
+.ring-blue-500 {
+  --tw-ring-color: #e4b351 !important;
+}
+
+.shadow-blue-500\/25 {
+  --tw-shadow-color: rgb(228 179 81 / 0.25) !important;
+}
+
 /* Ensure minimum font size on mobile */
 @media (max-width: 768px) {
   body {
@@ -109,7 +134,7 @@ button:focus,
 input:focus,
 textarea:focus,
 select:focus {
-  outline: 2px solid #3B82F6;
+  outline: 2px solid #e4b351;
   outline-offset: 2px;
 }
 
@@ -149,10 +174,10 @@ select:focus {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #3B82F6;
+  background: #e4b351;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #2563EB;
+  background: #d4a03f;
 }
