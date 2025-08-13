@@ -45,7 +45,7 @@ window.CONFIG = {
     {
       title: "AGR/DPF/ADBLUE DEAKTIVIERUNG",
       subtitle: "Softwareseitige Stilllegung für störungsfreies Fahren",
-      image: "https://images.pexels.com/photos/3807277/pexels-photo-3807277.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      image: "https://i.postimg.cc/B6yHXWFK/23f69f1e-8709-4b9c-bdbc-807cdf904521.avif"
     },
     {
       title: "POPS & BANGS / VMAX-AUFHEBUNG",
