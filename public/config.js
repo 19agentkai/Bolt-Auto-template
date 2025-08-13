@@ -116,7 +116,7 @@ window.CONFIG = {
       category: "Diagnose"
     },
     {
-      src: "https://images.pexels.com/photos/3874337/pexels-photo-3874337.jpeg?auto=compress&cs=tinysrgb&w=800",
+      src: "https://i.postimg.cc/w3YsBSjF/automobile-3327325-1920.jpg",
       title: "Performance Tuning",
       category: "Tuning"
     },
