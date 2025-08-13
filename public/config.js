@@ -106,7 +106,7 @@ window.CONFIG = {
   // Gallery Images
   GALLERY_IMAGES: [
     {
-      src: "https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=800",
+      src: "https://i.postimg.cc/m261FmSN/Whats-App-Image-2025-08-12-at-13-44-25.jpg",
       title: "Chiptuning BMW",
       category: "Chiptuning"
     },
