@@ -173,11 +173,12 @@ export const MainServices: React.FC = () => {
           key={index}
           className="relative h-96 lg:h-[500px] overflow-hidden group cursor-pointer transform transition-all duration-700 hover:scale-105"
         >
-          <div
-            className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 group-hover:scale-125"
-            style={{ backgroundImage: `url(${service.image})` }}
+          <img
+            src={service.image}
+            alt={service.title}
+            className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-125"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-black/60 transition-all duration-500" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-black/40 transition-all duration-500" />
           
           <div className="absolute inset-0 flex flex-col justify-center items-center p-8 text-white text-center transform transition-transform duration-500 group-hover:translate-y-[-10px]">
             <h3 className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl font-black mb-4 leading-tight transform transition-transform duration-300 group-hover:scale-105 px-4 sm:px-6 md:px-8 lg:px-10">
@@ -188,7 +189,7 @@ export const MainServices: React.FC = () => {
             </p>
           </div>
           
-          <div className="absolute inset-0 bg-blue-600 bg-opacity-0 group-hover:bg-opacity-10 transition-all duration-500" />
+          <div className="absolute inset-0 bg-blue-600 bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-500" />
         </div>
       ))}
     </div>
