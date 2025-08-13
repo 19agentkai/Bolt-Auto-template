@@ -60,7 +60,7 @@ const Contact = () => {
           <div className="relative z-10 h-full flex flex-col justify-center p-12 lg:p-16 text-white">
             
             
-            <h2 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black mb-8 leading-tight transform hover:scale-105 transition-transform duration-500">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-black mb-8 leading-tight transform hover:scale-105 transition-transform duration-500">
               <Text k="CONTACT_CTA_LEFT" />
             </h2>
             
@@ -106,7 +106,7 @@ const Contact = () => {
           <div className="relative z-10 h-full flex flex-col justify-center p-12 lg:p-16 text-white">
             
             
-            <h2 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black mb-8 leading-tight transform hover:scale-105 transition-transform duration-500">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-black mb-8 leading-tight transform hover:scale-105 transition-transform duration-500">
               <Text k="CONTACT_CTA_RIGHT" />
             </h2>
             
@@ -176,10 +176,10 @@ const Contact = () => {
             
             {/* Left Side - CTA Content */}
             <div className="text-white">
-              <h2 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black mb-6 transform hover:scale-105 transition-transform duration-500 leading-tight">
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-black mb-6 transform hover:scale-105 transition-transform duration-500 leading-tight">
                 <Text k="CONTACT_HEADLINE" /> <span className="text-blue-400 animate-pulse"><Text k="CONTACT_SUBHEADLINE" /></span>
               </h2>
-              <p className="text-xl text-gray-300 mb-8 opacity-0 animate-fade-in-up animate-delay-300 leading-relaxed">
+              <p className="text-lg sm:text-xl text-gray-300 mb-8 opacity-0 animate-fade-in-up animate-delay-300 leading-relaxed max-w-4xl">
                 <Text k="CONTACT_DESCRIPTION" />
               </p>
 

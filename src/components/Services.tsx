@@ -13,12 +13,13 @@ const Services = () => {
               Qualität, Erfahrung & Service
             </span>
             <h2 className="text-5xl sm:text-6xl lg:text-7xl xl:text-7xl font-black text-white mb-6 leading-tight transform hover:scale-105 transition-transform duration-500">
+            <h2 className="text-4xl sm:text-5xl lg:text-6xl xl:text-6xl font-black text-white mb-6 leading-tight transform hover:scale-105 transition-transform duration-500">
               <Text k="SERVICES_HEADLINE" /><br />
-              <span className="text-blue-400 animate-pulse text-4xl sm:text-5xl lg:text-6xl xl:text-7xl">
+              <span className="text-blue-400 animate-pulse text-3xl sm:text-4xl lg:text-5xl xl:text-6xl">
                 <Text k="SERVICES_SUBHEADLINE" />
               </span>
             </h2>
-            <p className="text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed opacity-0 animate-fade-in-up animate-delay-300">
+            <p className="text-lg sm:text-xl text-gray-300 max-w-5xl mx-auto leading-relaxed opacity-0 animate-fade-in-up animate-delay-300">
               <Text k="SERVICES_DESCRIPTION" />
             </p>
           </div>

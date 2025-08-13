@@ -178,10 +178,10 @@ export const MainServices: React.FC = () => {
           <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-black/60 transition-all duration-500" />
           
           <div className="absolute inset-0 flex flex-col justify-center items-center p-8 text-white text-center transform transition-transform duration-500 group-hover:translate-y-[-10px]">
-            <h3 className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl font-black mb-4 leading-tight transform transition-transform duration-300 group-hover:scale-105 px-6 sm:px-8 md:px-10 lg:px-12">
+            <h3 className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl font-black mb-4 leading-tight transform transition-transform duration-300 group-hover:scale-105 px-4 sm:px-6 md:px-8 lg:px-10">
               {service.title}
             </h3>
-            <p className="text-xs sm:text-xs md:text-sm lg:text-base text-gray-200 leading-relaxed opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-y-4 group-hover:translate-y-0 max-w-[90%] px-6 sm:px-8 md:px-10 lg:px-12">
+            <p className="text-xs sm:text-xs md:text-sm lg:text-sm text-gray-200 leading-relaxed opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-y-4 group-hover:translate-y-0 max-w-[95%] px-4 sm:px-6 md:px-8 lg:px-10">
               {service.subtitle}
             </p>
           </div>

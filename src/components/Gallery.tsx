@@ -32,10 +32,10 @@ const Gallery = () => {
     <section id="gallery" className="py-20 lg:py-32 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-gray-900 mb-6">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 mb-6">
             Unsere <span className="text-blue-700">Arbeit</span>
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-lg sm:text-xl text-gray-600 max-w-4xl mx-auto">
             Sehen Sie selbst, wie wir Ihr Fahrzeug zum Strahlen bringen. Jedes Detail zählt.
           </p>
         </div>

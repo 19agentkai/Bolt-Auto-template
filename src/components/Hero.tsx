@@ -47,12 +47,13 @@ const Hero = () => {
           <div className="animate-fade-in-up opacity-0 animate-delay-300">
            
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-black text-white mb-6 sm:mb-8 leading-tight sm:leading-none tracking-tight transform hover:scale-105 transition-transform duration-500">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-white mb-6 sm:mb-8 leading-tight sm:leading-none tracking-tight transform hover:scale-105 transition-transform duration-500">
               <Text k="HERO_HEADLINE" /><br />
-              <span className="text-blue-500 animate-pulse text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl">
+              <span className="text-blue-500 animate-pulse text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
                 <Text k="HERO_SUBHEADLINE" />
               </span>
             </h1>
-            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-gray-200 mb-10 sm:mb-16 font-light max-w-4xl mx-auto opacity-0 animate-fade-in-up animate-delay-600 px-4">
+            <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-gray-200 mb-10 sm:mb-16 font-light max-w-5xl mx-auto opacity-0 animate-fade-in-up animate-delay-600 px-4 leading-relaxed">
               <Text k="HERO_TAGLINE" />
             </h2>
             
